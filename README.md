@@ -6,8 +6,8 @@ I am learning new technical skills and building my first projects on Github.
 
 ## My Goals
 
--Learn Cyber Security 
--Learn Cloud Security
--Learn Linux and Networking 
--Build Practical projects
--Became a Cloud Security Engineer
+- Learn Cyber Security 
+- Learn Cloud Security
+- Learn Linux and Networking 
+- Build Practical projects
+- Became a Cloud Security Engineer
