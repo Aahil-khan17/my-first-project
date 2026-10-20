@@ -20,4 +20,8 @@ Shows the current username .
 
 ### 3. Learning Goal
 I am learning Linux basics to build my knowledge of Cyber Security and Cloud Security .
+### cd ~
+Moves to the current user's home directory
+### ls -a
+Lists all files and folders, including hidden ones.
 
