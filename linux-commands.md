@@ -48,3 +48,35 @@ The `nslookup` command is used to find the IP addresses associated with a domain
 
 ### What I Learned
 DNS helps computers locate websites using their domain names.
+## Ports and Protocols
+
+A port is a number used to identify a specific service or application on a computer.
+
+### Important Network Ports
+
+| Port | Protocol/Service | Purpose |
+|---|---|---|
+| 22 | SSH | Secure remote login |
+| 53 | DNS | Domain name resolution |
+| 80 | HTTP | Web communication |
+| 443 | HTTPS | Secure web communication |
+
+### TCP vs UDP
+
+**TCP:**
+- Reliable data delivery.
+- Uses acknowledgements and retransmission.
+- Example: SSH and many file transfers.
+
+**UDP:**
+- Does not guarantee delivery.
+- Lower communication overhead.
+- Example: Online gaming and live calls.
+
+### Practical Command
+
+```bash
+ss -tuln
+```
+
+Purpose: Displays listening TCP and UDP sockets with numeric addresses and port numbers.
