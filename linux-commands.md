@@ -80,3 +80,27 @@ ss -tuln
 ```
 
 Purpose: Displays listening TCP and UDP sockets with numeric addresses and port numbers.
+## Firewall and UFW
+
+A firewall controls incoming and outgoing network traffic based on security rules.
+
+### UFW
+UFW stands for Uncomplicated Firewall. It is a firewall management tool available on Ubuntu.
+
+### Commands
+
+```bash
+sudo apt install ufw -y
+sudo ufw status
+```
+
+### Important Firewall Rules
+
+- Allow 22: Allow SSH traffic.
+- Allow 80: Allow HTTP traffic.
+- Allow 443: Allow HTTPS traffic.
+
+### Learning
+- Allow means permit network traffic.
+- Deny means block network traffic.
+- In my Ubuntu WSL environment, UFW is installed but currently inactive.
